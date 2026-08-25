@@ -15,7 +15,7 @@ NODOS={
 }
 
 def conn():
-    return oracledb.connect(user='USR3_27_2CC32',password='+-Ingreso082026',host='201.247.249.154',port=1521,service_name='BDRSQL')
+    return oracledb.connect(user='USR3_27_2CC32',password='08EOR_Ingreso*',host='201.247.249.154',port=1521,service_name='BDRSQL')
 
 st.title('Consulta Exantes')
 tabla=st.selectbox('Tabla',['PUB004PEXANTE'])
