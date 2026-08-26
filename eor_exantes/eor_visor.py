@@ -21,7 +21,7 @@ tabla = 'PUB004PEXANTE'
 def conn():
     return oracledb.connect(
         user="USR3_27_2CC32",
-        password="+-Ingreso082026",
+        password="08EOR_Ingreso*",
         host="201.247.249.154",
         port=1521,
         service_name="BDRSQL"
